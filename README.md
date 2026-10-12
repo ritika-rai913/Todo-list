@@ -6,7 +6,7 @@ A simple and interactive To-Do List web application built using **HTML, CSS, and
 
 🚀 Live Demo
 
-file:///E:/Ritika/supersimpledev/Todo%20list/todo.html
+https://ritika-rai913.github.io/Todo-list/
 
 ## ✨ Features
 
