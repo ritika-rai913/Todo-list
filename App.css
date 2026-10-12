@@ -1,0 +1,70 @@
+body{
+    font-family: Arial;
+}
+.todo-grid,
+.input-grid{
+    display: grid;
+    grid-template-columns: 250px 200px 100px;
+    column-gap:61px;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.input-grid{
+    margin-bottom: 20px;
+    align-items: stretch;
+}
+.name-input,
+.time-input{
+    font-size: 15px;
+    width: 242px;
+    padding: 7px;
+    margin: 3px;
+    border-radius: 40px;
+    border: 2px solid gray;
+    background-color: black;
+    color: gray;
+}
+.name-input{
+    margin-right: 30px;
+        width: 290px;
+
+}
+.time-input{
+        width: 203px;
+        margin-right: 20px;
+
+}
+.Add-Todo{
+    background-color: rgb(0, 255, 196);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: -32px;
+    padding: 17px;
+}
+.Add-Todo:hover{
+    background-color: rgb(31, 182, 147);
+}
+.del-btn{
+    background-color: rgb(0, 255, 196);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.para{
+    color: rgb(0, 255, 196);
+    font-size: 65px;
+    margin-left: 330px;
+    font-weight: bolder;
+}
